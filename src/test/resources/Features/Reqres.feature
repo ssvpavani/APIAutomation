@@ -3,7 +3,7 @@ Feature: Reqres API
   Background:
     Given Launch the Reqres base URL
 
-  @createUser @Smoke
+  @createUser 
   Scenario Outline: Create a new user
     When Create a new user with "<name>" "<job>"
     Then Validate the reqrespost status code 201
