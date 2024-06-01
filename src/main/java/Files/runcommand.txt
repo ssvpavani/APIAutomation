@@ -1,0 +1,6 @@
+mvn -Durl=https://reqres.in/api -Dcucumber.filter.tags="@Reqres" test
+mvn -Durl=https://bookcart.azurewebsites.net/api -Dcucumber.filter.tags="@BookCart" test
+mvn -Durl=https://rahulshettyacademy.com -Dcucumber.filter.tags="@Ecommerce" test
+mvn -Durl=https://restful-booker.herokuapp.com -Dcucumber.filter.tags="@RestfulBooker" test
+mvn -Durl=https://rahulshettyacademy.com -Dcucumber.filter.tags="@RSAMaps" test
+mvn -Durl=https://api.storerestapi.com -Dcucumber.filter.tags="@StoreRestAPI" test
